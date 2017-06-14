@@ -1,0 +1,64 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+main {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.colorblade {
+  margin: 50px 0;
+}
+
+.colorbruce {
+  margin: 50px 0;
+}
+
+.colorterry {
+  margin: 50px 0;
+}
+
+.quote {
+  text-align: center;
+  font-size: 3rem;
+  text-align: center !important;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.card {
+  background: black;
+  color: white;
+  margin: 50px 0;
+}
+
+.bladevideo {
+  background: black;
+  color: white;
+  margin: 55px 0;
+}
+
+.terryvideo {
+  background: black;
+  color: white;
+  margin: 55px 0;
+}
+
+s .h1, h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.page-header {
+  padding: 50px 0px 20px;
+  margin: 0px 0 20px;
+  border-bottom: 1px solid #eee;
+  background: black;
+  color: white;
+}
+
+footer {
+  background: #222;
+  margin: 0;
+  padding: 40px 0;
+  color: #9d9d9d;
+}

@@ -1,0 +1,24 @@
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <h1>Meet Blade, Bruce, & Terry!</h1>
+    </div>
+  </div>
+</div>
+
+<div ng-controller='DefaultController as dc'>
+  <div class="row">
+
+    <div class="col-sm-4 col-lg-4" ng-repeat="entry in dc.photos">
+      <div class="card" ng-click="dc.gotoFavorite($index)">
+        <img ng-class="{'vis-hidden': entry.showText}" class="img-responsive" ng-src="{{entry.path}}" alt="{{entry.description}}">
+        <p class="quote" ng-show="entry.showText" ng-href="entry.url">{{entry.description}}</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>

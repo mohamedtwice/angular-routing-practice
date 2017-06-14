@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Angular Routing Practice</title>
+  <script src="/vendors/angular.min.js" charset="utf-8"></script>
+  <script src="/vendors/angular-route.min.js" charset="utf-8"></script>
+  <script src="/scripts/app.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+
+  <main ng-app="routeApp">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Angular Routing Practice</a>
+        </div>
+        <!-- mobile menu button -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/#!/blade">Blade</a></li>
+            <li><a href="/#!/bruce">Bruce Leroy</a></li>
+            <li><a href="/#!/terry">Terry Tate</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!-- /.container-fluid -->
+
+    </div>
+    </nav>
+
+    <ng-view></ng-view>
+
+
+    <!-- /container -->
+  </main>
+</body>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2017 Angular Routing Practice</p>
+  </div>
+</footer>
+
+</html>
